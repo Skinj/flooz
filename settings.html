@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+	<link rel="stylesheet/less" type="text/css" href="styles/style.less" />
+
+	<script src="scripts/less-1.6.0.min.js" type="text/javascript"></script>
+
+	<title>Flooz</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="settings">
+
+	<div class="wrap">
+		<header>
+			<h1>Settings</h1>
+			<a href="account.html"><img src="images/34px/cross-normal.png" alt="close" class="close"></a>
+		</header>
+		<div class="settings-content">
+			<div id="setting-notification" class="setting">
+				<img src="images/34px/notif.png" alt="notifications" class="icon">
+				<h1>notifications</h1>
+				<img src="images/Others/arrow-right-white.png" alt="edit notifications" class="arrow">
+			</div>
+			<div id="setting-secure-code" class="setting">
+				<img src="images/34px/cadenas.png" alt="secure code" class="icon">
+				<h1>secure code</h1>
+				<img src="images/Others/arrow-right-white.png" alt="edit secure code" class="arrow">
+			</div>
+			<div id="setting-rib" class="setting">
+				<img src="images/34px/rib.png" alt="rib" class="icon">
+				<h1>rib</h1>
+				<img src="images/Others/arrow-right-white.png" alt="edit secure code" class="arrow">
+			</div>
+			<div class="setting">
+				<img src="images/34px/oeil.png" alt="share and privacy" class="icon">
+				<h1>share & privacy</h1>
+				<img src="images/Others/arrow-right-white.png" alt="edit secure code" class="arrow">
+			</div>
+
+			<div class="notifications-page">
+				<div class="top">
+					<img src="images/34px/arrowback-normal.png" alt="back" class="back">
+					<div class="title">Notifications</div>
+				</div>
+				<div class="notifications-content">
+					<h2>push</h2>
+					<div class="notification">
+						<h3>Comments</h3>
+						<input type="checkbox" checked>
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Likes</h3>
+						<input type="checkbox">
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Friend Request</h3>
+						<input type="checkbox" checked>
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Friend Joined</h3>
+						<input type="checkbox">
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Status (accepted, refused...)</h3>
+						<input type="checkbox">
+						<div class="cb"></div>
+					</div>
+					<h2>sms</h2>
+					<div class="notification">
+						<h3>Status (accepted, refused...)</h3>
+						<input type="checkbox" checked>
+						<div class="cb"></div>
+					</div>
+					<h2>e-mail</h2>
+					<div class="notification">
+						<h3>Comments</h3>
+						<input type="checkbox" checked>
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Likes</h3>
+						<input type="checkbox">
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Friend Request</h3>
+						<input type="checkbox" checked>
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Friend Joined</h3>
+						<input type="checkbox">
+						<div class="cb"></div>
+					</div>
+					<div class="notification">
+						<h3>Status (accepted, refused...)</h3>
+						<input type="checkbox">
+						<div class="cb"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="secure-code-page">
+				<div class="top">
+					<img src="images/34px/arrowback-normal.png" alt="back" class="back">
+					<div class="title">Secure Code</div>
+					<img src="images/34px/check-hover.png" alt="validate" class="validate">
+				</div>
+				<div class="secure-code-content">
+					<h2>current code</h2>
+					<div class="table">
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="cb"></div>
+					</div>
+					<h2>new code</h2>
+					<div class="table">
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="cb"></div>
+					</div>
+					<h2>retype code</h2>
+					<div class="table">
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="col"><input type="password" maxlength="1"></div>
+						<div class="cb"></div>
+					</div>
+					<div class="secure-code-crypt"><img src="images/34px/cadenas.png" alt="crypt">Sécurité 289380239 bits de cryptage</div>
+				</div>
+			</div>
+
+			<div class="rib-page">
+				<div class="top">
+					<img src="images/34px/arrowback-normal.png" alt="back" class="back">
+					<div class="title">Rib</div>
+					<img src="images/34px/edit.png" alt="edit" class="edit">
+					<img src="images/34px/check-hover.png" alt="validate" class="validate">
+				</div>
+				<div class="rib-content">
+					<h2>clé établissement</h2>
+					<input type="text" value="XXXX XXXX XXXX XX55" readonly>
+					<h2>code guichet</h2>
+					<input type="text" value="5657" readonly>
+					<h2>numéro de compte</h2>
+					<input type="text" value="5657" readonly>
+					<h2>code rib</h2>
+					<input type="text" value="87" readonly>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="scripts/actions.js"></script>
+
+</body>
+
+</html>

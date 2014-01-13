@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+	<link rel="stylesheet/less" type="text/css" href="styles/style.less" />
+
+	<script src="scripts/less-1.6.0.min.js" type="text/javascript"></script>
+
+	<title>Flooz</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="paiement-page">
+
+	<div class="actions">
+		<div class="cancel"><img src="images/34px/cross-normal.png" alt="cancel"></div>
+		<div class="validate"><img src="images/34px/check-normal.png" alt="validate"></div>
+	</div>
+	<h1>Paiement</h1>
+	<div class="amount">
+		<span class="dollar">$</span><span class="number"><span class="number-int active">123</span><span class="number-point">.</span><span class="number-cents">00</span></span>
+	</div>
+	<div class="obo">
+		<div class="incr active">+</div>
+		<div class="decr">-</div>
+	</div>
+	<div class="cb"></div>
+	<div class="to">
+		<div class="input"><p>A :</p><input type="text" class="inputto" placeholder="Name, Phone or E-mail"></div>
+		<div class="link"><img class="tofacebook" src="images/34px/facebook-normal-copie.png" alt="facebook"><img class="tocontact" src="images/34px/contact-active.png" alt="contact"></div>
+		<div class="cb"></div>
+	</div>
+	<textarea name="occasion" id="occasion">Pour quelle occasion ?</textarea>
+	<div class="moyen">
+		<div class="card"><span class="card-img"></span><p>Card</p></div><div class="balance active"><span class="balance-img"></span><p>Balance : <span class="number">+ $1 345</span></p></div>
+	</div>
+	<div class="options">
+		<div class="left">
+			<div class="geoloc active"></div>
+			<div class="picture"></div>
+			<div class="facebook"></div>
+		</div>
+		<div class="right">
+			<div class="cat">Public</div>
+		</div>
+		<div class="cb"></div>
+	</div>
+	<div class="calculatrice">
+		<div class="calc-case">1</div>
+		<div class="calc-case">2</div>
+		<div class="calc-case">3</div>
+		<div class="calc-case">4</div>
+		<div class="calc-case active">5</div>
+		<div class="calc-case">6</div>
+		<div class="calc-case">7</div>
+		<div class="calc-case">8</div>
+		<div class="calc-case">9</div>
+		<div class="calc-case"></div>
+		<div class="calc-case">0</div>
+		<div class="calc-case"></div>
+		<div class="cb"></div>
+	</div>
+
+	<script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="scripts/actions.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+	<link rel="stylesheet/less" type="text/css" href="styles/style.less" />
+
+	<script src="scripts/less-1.6.0.min.js" type="text/javascript"></script>
+
+	<title>Flooz</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="account">
+
+	<section class="nav">
+		<div class="menu">SOCIAL<img src="images/Others/arrow-right-white.png" alt="menu"></div>
+		<div class="menu">TIMELINE<img src="images/Others/arrow-right-white.png" alt="menu"></div>
+		<div class="menu">ACCOUNT<img src="images/Others/arrow-right-white.png" alt="menu"></div>
+	</section>
+
+	<section class="wrap">
+
+		<header>
+			<div class="hamburger">_</div>
+			<h1>Account</h1>
+		</header>
+
+		<div class="content">
+			<div class="pict" style="background-image:url(images/1.jpg)"></div>
+			<div class="edit-link"><img src="images/Others/arrow-right-bleu.png" alt="edit account"></div>
+			<h1>Florent Duwicquet</h1>
+			<div class="infos">
+				<div class="friends info"><span class="number">423</span> friends</div>
+				<div class="flooz info"><span class="number">56</span> flooz</div>
+				<div class="completed info"><span class="number">80%</span> completed</div>
+				<div class="cb"></div>
+			</div>
+			<div class="balance">
+				<div class="balance-left">
+					<img src="images/42px/balance.png" alt="balance"/>
+				</div>
+				<div class="balance-right">
+					<h2>Balance</h2>
+					<div class="number">+ $1 423.00</div>
+				</div>
+				<div class="cb"></div>
+			</div>
+			<div class="actions">
+				<a href="card.html"><div class="action card"><img src="images/42px/credit.png" alt="credit card"><p>credit card</p></div></a>
+				<a href="cashout.html"><div class="action cashout"><img src="images/42px/cashout.png" alt="cash out"><p>cash out</p></div></a>
+				<a href="settings.html"><div class="action settings"><img src="images/42px/settings.png" alt="settings"><p>settings</p></div></a>
+				<a href="informations.html"><div class="action informations"><img src="images/42px/informations.png" alt="informations"><p>informations</p></div></a>
+				<div class="cb"></div>
+			</div>
+			<div class="edit-account-page">
+				<div class="top">
+					<img src="images/34px/arrowback-normal.png" alt="back" class="back">
+					<div class="title">Edit</div>
+					<img src="images/34px/check-hover.png" alt="validate" class="validate">
+				</div>
+				<div class="edit-account-content">
+					<input id="edit-account-name" type="text" name="name" placeholder="Name"/>
+					<input id="edit-account-phone" type="text" name="phone" placeholder="Phone"/>
+					<input id="edit-account-mail" type="text" name="mail" placeholder="Mail"/>
+					<h2>Personal Informations</h2>
+					<input id="edit-account-address" type="text" name="address" placeholder="Address"/>
+					<input id="edit-account-zip" type="text" name="zip" placeholder="Zip Code"/>
+					<input id="edit-account-town" type="text" name="town" placeholder="Town"/>
+					<h2>Social Informations</h2>
+					<div class="edit-account-facebook">
+						<img class="icon" src="images/24px/facebook2.png" alt="facebook"/>
+						<p>Lier mon compte Facebook</p>
+						<img class="arrow" src="images/Others/arrow-right-white.png" alt="link to facebook">
+					</div>
+					<h2>Securité Informations</h2>
+					<div class="edit-account-security">
+						<div class="security-infos"><img class="icon" src="images/24px/id-card.png" alt="ID Card recto">ID Card (Recto)<img src="images/Others/arrow-right-white.png" alt="" class="arrow"><span class="name-img">photo1.png</span></div>
+						<div class="security-infos"><img class="icon" src="images/24px/id-card.png" alt="ID Card verso">ID Card (Verso)<img src="images/Others/arrow-right-white.png" alt="" class="arrow"><span class="name-img">photo1.png</span></div>
+						<div class="security-infos"><img class="icon" src="images/24px/jutificatif.png" alt="Justification">Justificatif de domicile<img src="images/Others/arrow-right-white.png" alt="" class="arrow"><span class="name-img">photo1.png</span></div>
+						<div id="edit-security-password" class="security-infos"><img class="icon" src="images/24px/cadenas2.png" alt="Change password">Change Password<img src="images/Others/arrow-right-white.png" alt="" class="arrow"></div>
+					</div>
+				</div>
+			</div>
+			<div class="edit-password-page">
+				<div class="top">
+					<img src="images/34px/arrowback-normal.png" alt="back" class="back">
+					<div class="title">Mot de Passe</div>
+					<img src="images/34px/check-hover.png" alt="validate" class="validate">
+				</div>
+				<div class="edit-password-content">
+					<h2>CURRENT PASSWORD</h2>
+					<input id="edit-password-current" type="password" name="current-password" placeholder="" value="password"/>
+					<h2>NEW PASSWORD</h2>
+					<input id="edit-password-new" type="password" name="new-password" placeholder=""/>
+					<h2>RETYPE PASSWORD</h2>
+					<input id="edit-password-retype" type="password" name="retype-password" placeholder=""/>
+					<div class="edit-password-crypt"><img src="images/34px/cadenas.png" alt="crypt">Sécurité 289380239 bits de cryptage</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="scripts/actions.js"></script>
+
+</body>
+
+</html>
